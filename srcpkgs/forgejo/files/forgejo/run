@@ -2,7 +2,7 @@
 exec 2>&1
 
 # USER and HOME are needed because forgejo doesn't actually check the user it
-# runs as, but instead just grabs the variables from the variables.
+# runs as, but instead just grabs the variables from the environment.
 export USER=_forgejo
 export HOME=/var/lib/forgejo
 

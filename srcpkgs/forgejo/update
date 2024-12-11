@@ -1,3 +1,1 @@
-site="https://codeberg.org/forgejo/forgejo/tags"
-pattern='/forgejo/forgejo/archive/v\K[\d.]+(?=tar.gz)'
 ignore="*-dev"
